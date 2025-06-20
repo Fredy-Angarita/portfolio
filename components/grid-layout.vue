@@ -4,9 +4,9 @@
     <div class="parent">
       <div class="div1 box">1</div>
       <div class="div2 box">2</div>
-      <div class="div3 box"></div>
-      <div class="div4 box">4</div>
-      <div class="div5 box">5</div>
+      <div class="div3 box"><Stack /></div>
+      <div class="div4 box"></div>
+      <div class="div5 box"></div>
       <div class="div6 box">6</div>
     </div>
   </section>
@@ -15,10 +15,10 @@
 <style lang="scss" scoped>
 .parent {
   display: grid;
-  padding: 1rem;
+  padding: 2rem;
   height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   gap: 2rem;
   .box {
     background-color: whitesmoke;
@@ -26,35 +26,43 @@
     padding: 0.5rem;
   }
   .div1 {
-    grid-row: span 3 / span 3;
+    grid-row: span 4 / span 4;
   }
+
   .div2 {
-    grid-row: span 3 / span 3;
+    grid-row: span 4 / span 4;
     grid-column-start: 1;
-    grid-row-start: 4;
+    grid-row-start: 5;
   }
+
   .div3 {
+    grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
     grid-column-start: 2;
     grid-row-start: 3;
   }
-  .div4 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 1;
-  }
+
   .div5 {
-    grid-row: span 2 / span 2;
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
     grid-column-start: 2;
-    grid-row-start: 5;
+    grid-row-start: 6;
   }
+
   .div6 {
-    grid-row: span 6 / span 6;
-    grid-column-start: 3;
+    grid-row: span 8 / span 8;
+    grid-column-start: 4;
     grid-row-start: 1;
   }
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
     .div1,
