@@ -5,8 +5,8 @@
       <div class="div1 box"><Stack /></div>
       <div class="div2 box">2</div>
       <div class="div3 box"><ContactContainer /></div>
-      <div class="div4 box"></div>
-      <div class="div5 box"></div>
+      <div class="div4 box">4</div>
+      <div class="div5 box">5</div>
       <div class="div6 box">6</div>
     </div>
   </section>
@@ -19,7 +19,7 @@
   height: 100vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   .box {
     background-color: whitesmoke;
     border-radius: 0.5rem;
@@ -61,10 +61,35 @@
     grid-column-start: 4;
     grid-row-start: 1;
   }
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 1300px) {
+  .parent {
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .parent {
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-
+    .div1 {
+      order: 4;
+    }
+    .div2 {
+      order: 5;
+    }
+    .div3 {
+      order: 1;
+    }
+    .div4 {
+      order: 2;
+    }
+    .div5 {
+      order: 3;
+    }
+    .div6 {
+      order: 6;
+    }
     .div1,
     .div2,
     .div3,

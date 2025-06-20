@@ -38,4 +38,16 @@ defineProps<{
   -moz-box-shadow: 0px 0px 34px -10px rgba(66, 68, 90, 1);
   box-shadow: 0px 0px 34px -10px rgba(66, 68, 90, 1);
 }
+
+@media (max-width: 1300px) {
+  .card {
+    &-icon {
+      width: 1em;
+      height: 1em;
+    }
+    &-label {
+      font-size: 1em;
+    }
+  }
+}
 </style>

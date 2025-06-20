@@ -21,12 +21,13 @@
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
   gap: 1rem;
   &-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   &-networks,
   &-info {
@@ -35,6 +36,14 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+  }
+}
+@media (max-width: 1300px) {
+  .contact {
+    gap: 0.5rem;
+    &-title {
+      font-size: 1.5rem;
+    }
   }
 }
 </style>
