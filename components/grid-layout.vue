@@ -2,9 +2,9 @@
 <template>
   <section class="grid-layout">
     <div class="parent">
-      <div class="div1 box">1</div>
+      <div class="div1 box"><Stack /></div>
       <div class="div2 box">2</div>
-      <div class="div3 box"><Stack /></div>
+      <div class="div3 box"></div>
       <div class="div4 box"></div>
       <div class="div5 box"></div>
       <div class="div6 box">6</div>

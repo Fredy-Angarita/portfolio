@@ -16,7 +16,7 @@
       <Icon class="icon" name="skill-icons:html" />
       <Icon class="icon" name="devicon:sass" />
       <Icon class="icon" name="material-icon-theme:git" />
-      <Icon class="icon" name="mdi:github" />
+      <Icon class="icon" name="skill-icons:github-dark" />
       <Icon class="icon" name="material-icon-theme:vscode" />
       <Icon class="icon" name="logos:ubuntu" />
     </div>
@@ -45,8 +45,14 @@
     .icon {
       width: 3.5em;
       height: 3.5em;
+      border-radius: 0.5rem;
       aspect-ratio: 1/1;
       object-fit: contain;
+    }
+    .icon:hover {
+      -webkit-box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
+      -moz-box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
+      box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
     }
   }
 }
