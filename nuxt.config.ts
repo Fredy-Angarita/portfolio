@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
   modules: ["@nuxt/icon"],
-  css: ["/styles/main.scss"],
+  css: ["/assets/styles/main.scss"],
 });
