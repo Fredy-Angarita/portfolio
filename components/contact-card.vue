@@ -15,15 +15,16 @@ defineProps<{
 <style lang="scss" scoped>
 .card {
   display: flex;
-  border: 2px solid black;
   align-items: center;
   padding: 0.5rem;
   gap: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 35px -16px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 0px 0px 35px -16px rgba(66, 68, 90, 1);
-  box-shadow: 0px 0px 35px -16px rgba(66, 68, 90, 1);
+  -webkit-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
+  box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
+  transition: 0.6s;
+
   &-icon {
     width: 1.5em;
     height: 1.5em;
@@ -34,9 +35,7 @@ defineProps<{
   }
 }
 .card:hover {
-  -webkit-box-shadow: 0px 0px 34px -10px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 0px 0px 34px -10px rgba(66, 68, 90, 1);
-  box-shadow: 0px 0px 34px -10px rgba(66, 68, 90, 1);
+  transform: translateY(-4px);
 }
 
 @media (max-width: 1300px) {

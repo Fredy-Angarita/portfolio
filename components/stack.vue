@@ -47,9 +47,7 @@
     object-fit: contain;
   }
   .icon:hover {
-    -webkit-box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
-    -moz-box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
-    box-shadow: inset 0px 0px 23px 0px rgba(224, 147, 118, 1);
+    border-bottom: 3px solid rgb(13, 1, 103);
   }
   &-back,
   &-front,

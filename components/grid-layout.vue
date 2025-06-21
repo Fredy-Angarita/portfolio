@@ -62,10 +62,16 @@
     grid-row-start: 1;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .parent {
-    gap: 1rem;
-    padding: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-color: black;
+    .div6 {
+      grid-column: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 1;
+    }
   }
 }
 @media (max-width: 800px) {

@@ -40,7 +40,6 @@
 }
 @media (max-width: 1300px) {
   .contact {
-    gap: 0.5rem;
     &-title {
       font-size: 1.5rem;
     }
