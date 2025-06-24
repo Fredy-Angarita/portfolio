@@ -23,7 +23,7 @@ defineProps<{
   -webkit-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
   -moz-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
   box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
-  transition: 0.6s;
+  transition: 0.4s;
 
   &-icon {
     width: 1.5em;

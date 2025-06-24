@@ -4,16 +4,16 @@
   <section class="contact">
     <h3 class="contact-title">¡Trabajemos Juntos!</h3>
     <div class="contact-networks">
-      <ContactCard icon="devicon:linkedin" label="Linkedin" />
-      <ContactCard icon="skill-icons:github-dark" label="Github" />
+      <ContactBadge icon="devicon:linkedin" label="Linkedin" />
+      <ContactBadge icon="skill-icons:github-dark" label="Github" />
     </div>
     <div class="contact-info">
-      <ContactCard
+      <ContactBadge
         icon="streamline-ultimate-color:phone-circle"
         label="+57-322-0000-533"
       />
-      <ContactCard icon="streamline-cyber-color:email-2" label="Email" />
-      <ContactCard icon="streamline-color:new-file-flat" label="Ver CV" />
+      <ContactBadge icon="streamline-cyber-color:email-2" label="Email" />
+      <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
     </div>
   </section>
 </template>
