@@ -10,7 +10,7 @@
     <div class="contact-info">
       <ContactBadge
         icon="streamline-ultimate-color:phone-circle"
-        label="+57-322-0000-533"
+        label="Teléfono"
       />
       <ContactBadge icon="streamline-cyber-color:email-2" label="Email" />
       <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
