@@ -70,13 +70,4 @@
     }
   }
 }
-
-@media (max-width: 800px) {
-  .container {
-    .icon {
-      width: 1.5em;
-      height: 1.5em;
-    }
-  }
-}
 </style>
