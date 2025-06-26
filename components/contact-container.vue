@@ -25,6 +25,7 @@
   height: 100%;
   overflow-y: auto;
   scrollbar-width: none;
+  padding: 0.5rem;
   gap: 1rem;
   &-title {
     font-size: 2rem;
