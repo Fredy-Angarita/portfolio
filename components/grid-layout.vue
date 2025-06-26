@@ -76,8 +76,8 @@
 }
 @media (max-width: 900px) {
   .parent {
-    padding: 0.7rem;
-    gap: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     .div1 {
@@ -107,6 +107,12 @@
       grid-column: auto;
       grid-row: auto;
     }
+  }
+}
+@media (max-width: 500px) {
+  .parent {
+    padding: 0.7rem;
+    gap: 0.7rem;
   }
 }
 </style>
