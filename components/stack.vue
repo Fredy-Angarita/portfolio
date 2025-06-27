@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const logo = ref();
+const logo = ref("pulsa sobre cualquier icono");
 function showLogo(data: string) {
   logo.value = data;
 }
@@ -52,7 +52,7 @@ function showLogo(data: string) {
       </article>
     </div>
     <div class="show">
-      <p class="show-label">{{ logo }}</p>
+      {{ logo }}
     </div>
   </section>
 </template>
@@ -69,9 +69,11 @@ function showLogo(data: string) {
     scrollbar-width: none;
     height: 100%;
     padding: 0.5em;
+    -webkit-box-shadow: inset 0px -8px 15px -14px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0px -8px 15px -14px rgba(66, 68, 90, 1);
+    box-shadow: inset 0px -8px 15px -14px rgba(66, 68, 90, 1);
   }
   &-title {
-    margin-bottom: 1rem;
     text-align: center;
     font-size: 2rem;
   }
@@ -84,13 +86,10 @@ function showLogo(data: string) {
     justify-content: center;
   }
   .show {
-    background-color: #000000;
-    opacity: 0.5;
+    min-height: 100%;
     border-radius: 0 0 0.5rem 0.5rem;
-    backdrop-filter: blur(10px);
-    &-label {
-      color: white;
-    }
+    text-align: center;
+    padding: 0.2rem 0.5rem;
   }
 }
 @media (max-width: 1300px) {
