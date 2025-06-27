@@ -90,6 +90,7 @@ function showLogo(data: string) {
     border-radius: 0 0 0.5rem 0.5rem;
     text-align: center;
     padding: 0.2rem 0.5rem;
+    font-weight: bold;
   }
 }
 @media (max-width: 1300px) {
