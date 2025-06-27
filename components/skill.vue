@@ -32,6 +32,7 @@ function onHovered(nameLogo: string) {
   padding: 0.5rem;
   overflow: hidden;
   transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
   &-icon {
     width: 3.5em;
     height: 3.5em;
@@ -39,7 +40,7 @@ function onHovered(nameLogo: string) {
   }
 }
 .skill:hover {
-  background-color: #d6d6d6;
+  background-color: #dcdbdb;
   .skill-icon {
     transform: scale(1.3);
   }
