@@ -3,7 +3,7 @@
   <section class="grid-layout">
     <div class="parent">
       <div class="div1 box"><Stack /></div>
-      <div class="div2 box">2</div>
+      <div class="div2 box"></div>
       <div class="div3 box"><ContactContainer /></div>
       <div class="div4 box"><ProfileCard /></div>
       <div class="div5 box">5</div>
@@ -27,6 +27,7 @@
   }
   .div1 {
     grid-row: span 4 / span 4;
+    padding: 0;
   }
 
   .div2 {
