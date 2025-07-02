@@ -31,22 +31,10 @@ defineProps<{
   }
   &-label {
     user-select: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 .card:hover {
   transform: translateY(-4px);
-}
-
-@media (max-width: 1300px) {
-  .card {
-    &-icon {
-      width: 1em;
-      height: 1em;
-    }
-    &-label {
-      font-size: 1em;
-    }
-  }
 }
 </style>

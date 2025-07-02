@@ -4,6 +4,7 @@
   <section class="contact">
     <h3 class="contact-title">¡Trabajemos Juntos!</h3>
     <div class="contact-networks">
+      <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
       <ContactBadge icon="devicon:linkedin" label="Linkedin" />
       <ContactBadge icon="skill-icons:github-dark" label="Github" />
     </div>
@@ -13,7 +14,6 @@
         label="Teléfono"
       />
       <ContactBadge icon="streamline-cyber-color:email-2" label="Email" />
-      <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
     </div>
   </section>
 </template>
@@ -28,7 +28,8 @@
   padding: 0.5rem;
   gap: 1rem;
   &-title {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
   }
   &-networks,
   &-info {
@@ -37,13 +38,6 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-  }
-}
-@media (max-width: 1300px) {
-  .contact {
-    &-title {
-      font-size: 1.5rem;
-    }
   }
 }
 </style>
