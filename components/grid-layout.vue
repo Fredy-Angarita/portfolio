@@ -2,7 +2,7 @@
 <template>
   <div class="parent">
     <div class="div1 box"><profile-card /></div>
-    <div class="div2 box">2</div>
+    <div class="div2 box"><ProjectCard title="Prueba" /></div>
     <div class="div3 box">
       <ContactContainer />
     </div>
