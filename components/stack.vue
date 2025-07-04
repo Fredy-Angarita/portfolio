@@ -56,6 +56,7 @@ function showLogo(data: string) {
   }
   &-details {
     text-align: center;
+    margin-bottom: 0.5rem;
   }
 }
 </style>

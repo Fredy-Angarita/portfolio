@@ -24,7 +24,6 @@
   overflow-y: auto;
   scrollbar-width: none;
   border-radius: 0.4rem;
-  padding: 0.5rem;
   gap: 1.2rem;
 
   &-title {
@@ -37,13 +36,22 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    padding: 0.5rem;
   }
 }
 @media (max-width: 1350px) {
   .contact {
-    -webkit-box-shadow: inset 0px -32px 18px -29px rgba(66, 68, 90, 1);
-    -moz-box-shadow: inset 0px -32px 18px -29px rgba(66, 68, 90, 1);
     box-shadow: inset 0px -32px 18px -29px rgba(66, 68, 90, 1);
+  }
+}
+@media (max-width: 1000px) {
+  .contact {
+    box-shadow: none;
+  }
+}
+@media (max-width: 900px) {
+  .contact {
+    padding: 0;
   }
 }
 </style>

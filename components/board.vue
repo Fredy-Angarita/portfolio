@@ -6,6 +6,7 @@
       <About />
       <Stack />
     </div>
+    <h2 class="board-breakpoint">proyectos</h2>
     <div class="board-projects">
       <ProjectCard title="prueba1" />
       <ProjectCard title="prueba1" />
@@ -28,6 +29,11 @@
     display: flex;
     gap: 1rem;
   }
+  &-breakpoint {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
   &-projects {
     padding: 1rem;
     gap: 1rem;
@@ -39,15 +45,17 @@
 @media (max-width: 900px) {
   .board {
     &-projects {
+      padding: 0;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .board {
     &-presentation {
       flex-direction: column;
+      padding: 0;
     }
     &-projects {
       display: grid;

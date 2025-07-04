@@ -23,7 +23,7 @@
     margin-bottom: 0.5rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .about {
     max-width: 100%;
   }

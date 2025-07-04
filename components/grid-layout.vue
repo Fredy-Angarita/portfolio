@@ -67,7 +67,7 @@
 }
 @media (max-width: 500px) {
   .parent {
-    padding: 1rem;
+    padding: 0.5rem;
     gap: 0.5rem;
   }
 }

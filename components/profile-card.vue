@@ -60,4 +60,24 @@
     }
   }
 }
+@media (max-width: 900px) {
+  .container {
+    padding: 0;
+    &-content {
+      h2 {
+        font-size: 2rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+    &-actions {
+      .icon {
+        cursor: pointer;
+        height: 2.5em;
+        width: 2.5em;
+      }
+    }
+  }
+}
 </style>
