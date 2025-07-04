@@ -52,7 +52,15 @@
   }
 }
 @media (max-width: 900px) {
+  .parent {
+    padding: 2rem;
+    gap: 1rem;
+  }
 }
 @media (max-width: 500px) {
+  .parent {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
 }
 </style>
