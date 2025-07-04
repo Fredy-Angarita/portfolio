@@ -79,8 +79,7 @@ defineProps<{
 
 .container {
   background-color: transparent;
-  perspective: 1000px;
-  width: 400px;
+  width: 350px;
   height: 500px;
   cursor: pointer;
   .card {
@@ -89,7 +88,7 @@ defineProps<{
     height: 100%;
     border-radius: 5px;
     transform-style: preserve-3d;
-    transition: all 0.5s linear;
+    transition: 0.5s;
     &-front,
     &-back {
       width: 100%;

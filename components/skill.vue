@@ -34,8 +34,8 @@ function onHovered(nameLogo: string) {
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
   &-icon {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3em;
+    height: 3em;
     transition: 0.5s;
   }
 }

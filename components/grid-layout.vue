@@ -2,7 +2,7 @@
 <template>
   <div class="parent">
     <div class="div1 box"><profile-card /></div>
-    <div class="div2 box"><ProjectCard title="Prueba" /></div>
+    <div class="div2 box"><Board /></div>
     <div class="div3 box">
       <ContactContainer />
     </div>
@@ -42,7 +42,15 @@
 @media (max-width: 1000px) {
   .parent {
     grid-template-columns: auto;
-
+    .div1 {
+      order: 1;
+    }
+    .div2 {
+      order: 3;
+    }
+    .div3 {
+      order: 2;
+    }
     .div1,
     .div2,
     .div3 {
