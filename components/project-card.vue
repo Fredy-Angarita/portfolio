@@ -28,7 +28,7 @@ defineProps<{
         </p>
         <div class="card-front-links">
           <div class="card-front-links-actions">
-            <Icon name="bi:github" size="1.5em" style="color: black" />
+            <Icon name="bi:github" size="1.5em" />
           </div>
           <Icon name="pepicons-pop:arrow-spin" size="1.5em" />
         </div>

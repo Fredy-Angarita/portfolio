@@ -22,6 +22,7 @@
 .board {
   height: 100%;
   overflow-y: auto;
+  scrollbar-width: none;
   &-presentation {
     padding: 2em;
     border-bottom: 2px solid black;
