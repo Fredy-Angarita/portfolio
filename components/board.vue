@@ -13,7 +13,6 @@
       <ProjectCard title="prueba1" />
       <ProjectCard title="prueba1" />
       <ProjectCard title="prueba1" />
-
       <ProjectCard title="prueba1" />
     </div>
   </section>

@@ -6,8 +6,16 @@
   box-sizing: border-box;
   font-family: "Lexend", Courier, monospace;
 }
-html,
-body {
+html.light,
+html.light body {
   background-image: url("../../public/sprinkleLight.svg");
   background-size: cover;
+  color: black;
+}
+
+html.dark,
+html.dark body {
+  background-image: url("../../public/SprinkleDark.svg");
+  background-size: cover;
+  color: black;
 }

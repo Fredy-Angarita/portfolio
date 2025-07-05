@@ -1,9 +1,31 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const mode = useColorMode();
+
+function onDarkMode() {
+  mode.preference = "dark";
+  console.log(mode.value);
+}
+function onLightMode() {
+  mode.preference = "light";
+  console.log(mode.value);
+}
+</script>
 
 <template>
   <div class="container">
     <article class="container-actions">
-      <Icon class="icon" name="material-symbols:dark-mode" />
+      <Icon
+        v-if="mode.preference === 'light'"
+        class="icon"
+        name="material-symbols:dark-mode"
+        @click="onDarkMode"
+      />
+      <Icon
+        v-if="mode.preference === 'dark'"
+        class="icon"
+        name="si:light-mode-fill"
+        @click="onLightMode"
+      />
     </article>
     <div class="container-image">
       <img
