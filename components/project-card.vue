@@ -82,6 +82,7 @@ defineProps<{
   width: 350px;
   height: 500px;
   cursor: pointer;
+  perspective: 1000px;
   .card {
     position: relative;
     width: 100%;
@@ -93,10 +94,10 @@ defineProps<{
     &-back {
       width: 100%;
       height: 100%;
-      background-color: #f5f5f5;
+      background-color: var(--project-bg-color);
       border-radius: 5px;
       backface-visibility: hidden;
-      box-shadow: 0px 0px 17px -6px rgba(66, 68, 90, 1);
+      box-shadow: 0px 0px 17px -6px var(--project-box-shadow);
     }
     &-front {
       display: flex;
