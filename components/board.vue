@@ -15,6 +15,12 @@
       <ProjectCard title="prueba1" />
       <ProjectCard title="prueba1" />
     </div>
+    <div class="board-footer">
+      <p>
+        Free SVG Background by
+        <a target="_blank" href="https://bgjar.com">BGJar</a>
+      </p>
+    </div>
   </section>
 </template>
 
@@ -40,12 +46,19 @@
     place-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    border-bottom: 2px solid var(--board-separator-color);
+  }
+  &-footer {
+    text-align: center;
+    a {
+      color: var(--board-separator-color);
+    }
   }
 }
 @media (max-width: 900px) {
   .board {
     &-projects {
-      padding: 0;
+      padding: 0.5rem;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
@@ -55,10 +68,10 @@
   .board {
     &-presentation {
       flex-direction: column;
-      padding: 0;
     }
     &-projects {
       display: grid;
+      padding: 0.5rem;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
   }
