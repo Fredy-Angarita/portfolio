@@ -89,7 +89,7 @@ defineProps<{
     height: 100%;
     border-radius: 5px;
     transform-style: preserve-3d;
-    transition: 0.5s;
+    transition: 0.4s linear;
     &-front,
     &-back {
       width: 100%;
