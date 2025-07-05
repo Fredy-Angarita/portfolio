@@ -22,8 +22,6 @@
     background-color: var(--grid-bg-color);
     border-radius: 0.4rem;
     padding: 0.5rem;
-    -webkit-box-shadow: 0px 0px 25px 0px #42445a;
-    -moz-box-shadow: 0px 0px 25px 0px rgba(66, 68, 90, 0.5);
     box-shadow: 0px 0px 25px 0px var(--grid-box-shadow);
   }
   .div1 {

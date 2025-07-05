@@ -15,12 +15,8 @@ function showLogo(data: string) {
         @hovered="showLogo"
       />
       <Skill icon="logos:nestjs" name="Nestjs" @hovered="showLogo" />
-      <Skill
-        icon="material-icon-theme:docker"
-        name="Docker"
-        @hovered="showLogo"
-      />
-      <Skill icon="devicon:mysql" name="Mysql" @hovered="showLogo" />
+      <Skill icon="skill-icons:docker" name="Docker" @hovered="showLogo" />
+      <Skill icon="lineicons:mysql" name="Mysql" @hovered="showLogo" />
       <Skill icon="devicon:postgresql" name="Postgresql" @hovered="showLogo" />
       <Skill icon="devicon:angular" name="Angular" @hovered="showLogo" />
       <Skill icon="logos:nuxt-icon" name="Nuxt" @hovered="showLogo" />
@@ -29,7 +25,7 @@ function showLogo(data: string) {
       <Skill icon="skill-icons:html" name="HTML" @hovered="showLogo" />
       <Skill icon="devicon:sass" name="Sass" @hovered="showLogo" />
       <Skill icon="material-icon-theme:git" name="Git" @hovered="showLogo" />
-      <Skill icon="skill-icons:github-dark" name="Github" @hovered="showLogo" />
+      <Skill icon="mdi:github" name="Github" @hovered="showLogo" />
       <Skill
         icon="material-icon-theme:vscode"
         name="Vscode"

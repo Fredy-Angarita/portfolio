@@ -26,6 +26,7 @@
 @media (max-width: 500px) {
   .about {
     max-width: 100%;
+    padding: 1rem;
   }
 }
 </style>

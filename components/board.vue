@@ -25,7 +25,7 @@
   scrollbar-width: none;
   &-presentation {
     padding: 2em;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--board-separator-color);
     display: flex;
     gap: 1rem;
   }

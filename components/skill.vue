@@ -40,7 +40,6 @@ function onHovered(nameLogo: string) {
   }
 }
 .skill:hover {
-  background-color: #dcdbdb;
   .skill-icon {
     transform: scale(1.3);
   }
