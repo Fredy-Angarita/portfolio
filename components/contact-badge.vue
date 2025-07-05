@@ -20,9 +20,8 @@ defineProps<{
   gap: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
-  -webkit-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
-  box-shadow: 0px 4px 16px -7px rgba(66, 68, 90, 1);
+  background-color: var(--badge-bg-color);
+  box-shadow: 0px 4px 16px -7px var(--badge-box-shadow);
   transition: 0.4s;
 
   &-icon {
