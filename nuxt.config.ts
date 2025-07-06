@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/icon", "@nuxtjs/color-mode"],
   css: ["/assets/styles/main.scss"],
   colorMode: {
-    preference: "light",
+    preference: "system",
     fallback: "light",
     classSuffix: "",
   },

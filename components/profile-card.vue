@@ -15,13 +15,13 @@ function onLightMode() {
   <div class="container">
     <article class="container-actions">
       <Icon
-        v-if="mode.preference === 'light'"
+        v-if="mode.value === 'light'"
         class="icon"
         name="material-symbols:dark-mode"
         @click="onDarkMode"
       />
       <Icon
-        v-if="mode.preference === 'dark'"
+        v-if="mode.value === 'dark'"
         class="icon"
         name="si:light-mode-fill"
         @click="onLightMode"
