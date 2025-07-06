@@ -20,6 +20,12 @@
         Free SVG Background by
         <a target="_blank" href="https://bgjar.com">BGJar</a>
       </p>
+      <a
+        target="_blank"
+        href="https://www.flaticon.es/iconos-gratis/programa"
+        title="programa iconos"
+        >icono usado, creados por Vectorslab - Flaticon</a
+      >
     </div>
   </section>
 </template>
@@ -49,6 +55,8 @@
     border-bottom: 2px solid var(--board-separator-color);
   }
   &-footer {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     a {
       color: var(--board-separator-color);
