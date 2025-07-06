@@ -1,17 +1,31 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const phone = "+57 " + "323 " + "971 " + "5046";
+const email = "fsangaritav@gmail.com";
+const linkedin = "https://linkedin.com/in/fredysangaritav";
+const github = "https://github.com/Fredy-Angarita";
+</script>
 
 <template>
   <section class="contact">
     <h3 class="contact-title">¡Trabajemos Juntos!</h3>
     <div class="contact-networks">
       <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
-      <ContactBadge icon="devicon:linkedin" label="Linkedin" />
-      <ContactBadge icon="skill-icons:github-dark" label="Github" />
+      <ContactBadge :link="linkedin" icon="devicon:linkedin" label="Linkedin" />
+      <ContactBadge
+        :link="github"
+        icon="skill-icons:github-dark"
+        label="Github"
+      />
       <ContactBadge
         icon="streamline-ultimate-color:phone-circle"
         label="Teléfono"
+        :copy="phone"
       />
-      <ContactBadge icon="streamline-cyber-color:email-2" label="Email" />
+      <ContactBadge
+        icon="streamline-cyber-color:email-2"
+        label="Email"
+        :copy="email"
+      />
     </div>
   </section>
 </template>

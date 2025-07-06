@@ -1,12 +1,29 @@
 <script lang="ts" setup>
-defineProps<{
+const props = defineProps<{
   icon: string;
   label: string;
+  link?: string;
+  copy?: string;
 }>();
+
+function onAction() {
+  if (props.link) {
+    return navigateTo(props.link, {
+      external: true,
+      open: {
+        target: "_blank",
+      },
+    });
+  }
+  if (props.copy) {
+    navigator.clipboard.writeText(props.copy);
+    alert("Ha copiado el " + props.label);
+  }
+}
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" @click="onAction">
     <Icon class="card-icon" :name="icon" />
     <span class="card-label">{{ label }}</span>
   </div>
