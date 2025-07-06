@@ -3,11 +3,9 @@ const mode = useColorMode();
 
 function onDarkMode() {
   mode.preference = "dark";
-  console.log(mode.value);
 }
 function onLightMode() {
   mode.preference = "light";
-  console.log(mode.value);
 }
 </script>
 
