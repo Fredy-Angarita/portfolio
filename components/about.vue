@@ -1,16 +1,12 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const data = useLandingData();
+</script>
 
 <template>
   <section class="about">
     <h2 class="about-title">Sobre Mi</h2>
     <p class="about-description">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni repellat
-      voluptatibus libero sunt dignissimos ut animi provident adipisci iusto,
-      dolor, commodi eaque ad quis enim facilis deleniti ducimus officia.
-      Dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-      molestias itaque aliquam sequi rem quam atque amet libero consequatur
-      obcaecati qui fugit officiis dolor ipsam architecto earum tenetur,
-      voluptatem nobis.
+      {{ data["about-me"] }}
     </p>
   </section>
 </template>
