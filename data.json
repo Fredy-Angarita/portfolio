@@ -6,6 +6,7 @@
       "title": "Portafolio",
       "description": "Portafolio creado para presentar mis servicios como desarrollador. Incluye información básica sobre mí, mis proyectos y habilidades. Fue desarrollado con tecnologías modernas, cuenta con temas de color (modo claro y oscuro) y un diseño adaptable para la mayoría de dispositivos.",
       "image": "/Portfolio.webp",
+      "link": "https://github.com/Fredy-Angarita/portfolio",
       "tech": [
         {
           "name": "Nuxt",
@@ -118,6 +119,7 @@
       "title": "Jacket Tracker",
       "description": "Aplicación colaborativa dirigida a empresas pequeñas del sector textil para registrar la entrega de prendas terminadas, realizadas por satélites y calcular el pago correspondiente según las cantidades y el precio de cada prenda",
       "image": "/JackeTracker.webp",
+      "link": "https://github.com/3lPr1mo/Jacket_Tracker",
       "tech": [
         {
           "name": "Andorid",
