@@ -3,13 +3,19 @@ const phone = "+57 " + "323 " + "971 " + "5046";
 const email = "fsangaritav@gmail.com";
 const linkedin = "https://linkedin.com/in/fredysangaritav";
 const github = "https://github.com/Fredy-Angarita";
+const cv =
+  "https://drive.google.com/drive/folders/1H_NMQ2oiTlswaZrHO7vOt5q6l2SBxk3X?usp=sharing";
 </script>
 
 <template>
   <section class="contact">
     <h3 class="contact-title">¡Trabajemos Juntos!</h3>
     <div class="contact-networks">
-      <ContactBadge icon="streamline-color:new-file-flat" label="Ver CV" />
+      <ContactBadge
+        :link="cv"
+        icon="streamline-color:new-file-flat"
+        label="Ver CV"
+      />
       <ContactBadge :link="linkedin" icon="devicon:linkedin" label="Linkedin" />
       <ContactBadge
         :link="github"
