@@ -18,6 +18,9 @@ const data = useLandingData();
     text-align: center;
     margin-bottom: 0.5rem;
   }
+  &-description {
+    white-space: pre-line;
+  }
 }
 @media (max-width: 500px) {
   .about {
