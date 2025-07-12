@@ -1,34 +1,46 @@
 <script lang="ts" setup>
+import type { Tech } from "~/interfaces/tech.interface";
 const isFlipped = ref(false);
 
 function onFlip() {
   isFlipped.value = !isFlipped.value;
 }
 
-defineProps<{
+const props = defineProps<{
   title: string;
+  description: string;
+  link?: string;
+  techs: Tech[];
+  image: string;
 }>();
+
+function onRedirectProject() {
+  if (!props.link) return;
+  return navigateTo(props.link, {
+    external: true,
+    open: {
+      target: "_blank",
+    },
+  });
+}
 </script>
 
 <template>
   <article class="container">
     <article @click="onFlip" :class="['card', { isFlip: isFlipped }]">
       <div class="card-front">
-        <img
-          class="card-front-img"
-          src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
-          alt="img"
-        />
+        <img class="card-front-img" :src="image" alt="project-image" />
         <h2 class="card-front-title">{{ title }}</h2>
         <p class="card-front-description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          maiores nemo vero pariatur vel necessitatibus, rem fugiat optio
-          temporibus blanditiis a provident ad sequi? Minima, laboriosam
-          adipisci. Magni, nihil incidunt.
+          {{ description }}
         </p>
         <div class="card-front-links">
-          <div class="card-front-links-actions">
-            <Icon name="bi:github" size="1.5em" />
+          <div class="card-front-links-actions" v-if="link">
+            <Icon
+              name="bi:github"
+              size="1.5em"
+              @click.stop="onRedirectProject"
+            />
           </div>
           <Icon name="pepicons-pop:arrow-spin" size="1.5em" />
         </div>
@@ -37,34 +49,11 @@ defineProps<{
         <h3 class="card-back-title">Tecnológias</h3>
         <div class="card-back-tech">
           <TechBadge
-            @click.stop="console.log('hol')"
-            icon="proicons:typescript"
-            label="CSS"
-            background="blue"
-          />
-          <TechBadge
-            @click.stop="console.log('hol')"
-            icon="proicons:typescript"
-            label="HTML"
-            background="blue"
-          />
-          <TechBadge
-            @click.stop="console.log('hol')"
-            icon="proicons:typescript"
-            label="typescript"
-            background="blue"
-          />
-          <TechBadge
-            @click.stop="console.log('hol')"
-            icon="proicons:typescript"
-            label="Express"
-            background="blue"
-          />
-          <TechBadge
-            @click.stop="console.log('hol')"
-            icon="proicons:typescript"
-            label="PostgreSql"
-            background="blue"
+            v-for="tech in techs"
+            @click.stop=""
+            :icon="tech.icon"
+            :label="tech.name"
+            :background="tech.background"
           />
         </div>
       </div>
@@ -108,6 +97,8 @@ defineProps<{
       &-img {
         width: 100%;
         border-radius: 5px 5px 0 0;
+        max-height: 250px;
+        object-fit: contain;
       }
       &-title {
         margin-top: 8px;
