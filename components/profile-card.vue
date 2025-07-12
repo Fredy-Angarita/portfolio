@@ -12,18 +12,20 @@ function onLightMode() {
 <template>
   <div class="container">
     <article class="container-actions">
-      <Icon
-        v-if="mode.value === 'light'"
-        class="icon"
-        name="material-symbols:dark-mode"
-        @click="onDarkMode"
-      />
-      <Icon
-        v-if="mode.value === 'dark'"
-        class="icon"
-        name="si:light-mode-fill"
-        @click="onLightMode"
-      />
+      <ClientOnly>
+        <Icon
+          v-if="mode.value === 'light'"
+          class="icon"
+          name="material-symbols:dark-mode"
+          @click="onDarkMode"
+        />
+        <Icon
+          v-if="mode.value === 'dark'"
+          class="icon"
+          name="si:light-mode-fill"
+          @click="onLightMode"
+        />
+      </ClientOnly>
     </article>
     <div class="container-image">
       <img
