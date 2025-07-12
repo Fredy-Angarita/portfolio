@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const projects = useLandingData()["projects"];
+</script>
 
 <template>
   <section class="board">
@@ -6,14 +8,16 @@
       <About />
       <Stack />
     </div>
-    <h2 class="board-breakpoint">proyectos</h2>
+    <h2 class="board-breakpoint">Proyectos</h2>
     <div class="board-projects">
-      <ProjectCard title="prueba1" />
-      <ProjectCard title="prueba1" />
-      <ProjectCard title="prueba1" />
-      <ProjectCard title="prueba1" />
-      <ProjectCard title="prueba1" />
-      <ProjectCard title="prueba1" />
+      <ProjectCard
+        v-for="project in projects"
+        :title="project.title"
+        :description="project.description"
+        :image="project.image"
+        :techs="project.tech"
+        :link="project.link"
+      />
     </div>
     <div class="board-footer">
       <p>
