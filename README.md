@@ -1,10 +1,16 @@
-# Nuxt Minimal Starter
+## 🧑‍💻 Portafolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Landing page personal** desarrollada con el objetivo de presentar de forma clara y visual mis habilidades como desarrollador de software. 
+
+Construida principalmente con **Nuxt** y **SCSS**, utiliza **componentes reutilizables**, un **diseño responsivo** adaptable a todos los dispositivos y cuenta con **temas de color**. Además, está proyectada para **integrar y mostrar automáticamente mis proyectos personales desde GitHub**. 
+
+<img width="1878" height="1007" alt="image" src="https://github.com/user-attachments/assets/d9b507fa-96c1-4adc-a176-f6967a33d56c" />
+<img width="1878" height="1007" alt="image" src="https://github.com/user-attachments/assets/33c3be44-9f27-4311-a56f-fcf3c5f0e7f7" />
+
 
 ## Setup
 
-Make sure to install dependencies:
+Instalar dependencias:
 
 ```bash
 # npm
@@ -22,7 +28,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Para iniciar el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
 # npm
@@ -37,39 +43,5 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
