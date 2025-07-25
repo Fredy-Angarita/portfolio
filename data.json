@@ -1,0 +1,220 @@
+{
+  "about-me": "¡Hola! Soy Fredy Angarita, programador con amplio conocimiento en distintas herramientas de desarrollo web. Me apasiona crear software funcional y escalable, aplicando patrones de diseño que me permiten mantener un código limpio. \n \n Durante mi formación en la Universidad Distrital Francisco Jose de Caldas, y también a través del aprendizaje autodidacta, he desarrollado aplicaciones móviles, aplicaciones web y programas de escritorio. Cada uno de estos proyectos ha contribuido significativamente a mi crecimiento profesional y personal. \n \n Además de la programación, disfruto de la lectura, una actividad que estimula mi imaginación y creatividad.",
+
+  "projects": [
+    {
+      "title": "Lian Corp",
+      "description": "Aplicación web FullStack desarrollada como proyecto de titulación para la carrera de Tecnología en Sistematización de Datos. Está enfocada en el seguimiento de deudas de clientes, así como en la gestión de inventario y la venta de productos.",
+      "image": "/LianCorp.webp",
+      "link": "https://github.com/orgs/LIAN-CORP/repositories",
+      "tech": [
+        {
+          "name": "Nuxt",
+          "icon": "tabler:brand-nuxt",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Primevue",
+          "icon": "simple-icons:primevue",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "SCSS",
+          "icon": "vscode-icons:file-type-scss2",
+          "background": "#cd6799"
+        },
+        {
+          "name": "HTML",
+          "icon": "uim:html5",
+          "background": "#f16529"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-plain:css3",
+          "background": "#0277bd"
+        },
+        {
+          "name": "JWT",
+          "icon": "logos:jwt-icon",
+          "background": "#535353"
+        },
+        {
+          "name": "Docker",
+          "icon": "lineicons:docker",
+          "background": "#2396ed"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "lineicons:postgresql",
+          "background": "#336791"
+        },
+        {
+          "name": "Java",
+          "icon": "devicon-plain:java",
+          "background": "#535353"
+        },
+        {
+          "name": "Spring",
+          "icon": "simple-icons:spring",
+          "background": "#41873f"
+        }
+      ]
+    },
+    {
+      "title": "Portafolio",
+      "description": "Portafolio creado para presentar mis servicios como desarrollador. Incluye información básica sobre mí, mis proyectos y habilidades. Fue desarrollado con tecnologías modernas, cuenta con temas de color (modo claro y oscuro) y un diseño adaptable para la mayoría de dispositivos.",
+      "image": "/Portfolio.webp",
+      "link": "https://github.com/Fredy-Angarita/portfolio",
+      "tech": [
+        {
+          "name": "Nuxt",
+          "icon": "tabler:brand-nuxt",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "SCSS",
+          "icon": "vscode-icons:file-type-scss2",
+          "background": "#cd6799"
+        },
+        {
+          "name": "HTML",
+          "icon": "uim:html5",
+          "background": "#f16529"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-plain:css3",
+          "background": "#0277bd"
+        }
+      ]
+    },
+    {
+      "title": "Series Library",
+      "description": "Proyecto creado para personas que disfrutan de contenido como series y libros, y desean guardar resúmenes que les ayuden a recordar la trama sin tener que retomar la historia desde el principio.",
+      "image": "/SeriesLibrary.webp",
+      "link": "https://github.com/Fredy-Angarita/front-serie-library",
+      "tech": [
+        {
+          "name": "NestJS",
+          "icon": "file-icons:nestjs",
+          "background": "#e0234e"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "JWT",
+          "icon": "logos:jwt-icon",
+          "background": "#535353"
+        },
+        {
+          "name": "Docker",
+          "icon": "lineicons:docker",
+          "background": "#2396ed"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "lineicons:postgresql",
+          "background": "#336791"
+        },
+        {
+          "name": "Angular",
+          "icon": "devicon:angular",
+          "background": "#535353"
+        },
+        {
+          "name": "SCSS",
+          "icon": "vscode-icons:file-type-scss2",
+          "background": "#cd6799"
+        },
+        {
+          "name": "HTML",
+          "icon": "uim:html5",
+          "background": "#f16529"
+        }
+      ]
+    },
+    {
+      "title": "Our Hive",
+      "description": "Proyecto colaborativo creado para ayudar a las personas a registrar y reconocer sus emociones, permitiéndoles clasificarlas y guardar los eventos que las desencadenaron.",
+      "image": "/OurHive.webp",
+      "tech": [
+        {
+          "name": "NestJS",
+          "icon": "file-icons:nestjs",
+          "background": "#e0234e"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "JWT",
+          "icon": "logos:jwt-icon",
+          "background": "#535353"
+        },
+        {
+          "name": "Docker",
+          "icon": "lineicons:docker",
+          "background": "#2396ed"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "lineicons:postgresql",
+          "background": "#336791"
+        }
+      ]
+    },
+    {
+      "title": "Jacket Tracker",
+      "description": "Aplicación colaborativa dirigida a empresas pequeñas del sector textil para registrar la entrega de prendas terminadas, realizadas por satélites y calcular el pago correspondiente según las cantidades y el precio de cada prenda",
+      "image": "/JackeTracker.webp",
+      "link": "https://github.com/3lPr1mo/Jacket_Tracker",
+      "tech": [
+        {
+          "name": "Andorid",
+          "icon": "mingcute:android-2-fill",
+          "background": "#8bc34a"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "picon:kotlin",
+          "background": "#7f52ff"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "lineicons:postgresql",
+          "background": "#336791"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "akar-icons:node-fill",
+          "background": "#41873f"
+        },
+        {
+          "name": "Express",
+          "icon": "simple-icons:express",
+          "background": "#41873f"
+        }
+      ]
+    }
+  ]
+}

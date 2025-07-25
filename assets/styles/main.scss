@@ -1,0 +1,22 @@
+@use "font-family.scss" as font;
+@use "colors" as colors;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", Courier, monospace;
+}
+html.light,
+html.light body {
+  background-image: url("../../public/sprinkleLight.svg");
+  background-size: cover;
+  color: #000000;
+}
+
+html.dark,
+html.dark body {
+  background-image: url("../../public/SprinkleDark.svg");
+  background-size: cover;
+  color: #ffffff;
+}
