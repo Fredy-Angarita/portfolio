@@ -3,6 +3,69 @@
 
   "projects": [
     {
+      "title": "Lian Corp",
+      "description": "Aplicación web FullStack desarrollada como proyecto de titulación para la carrera de Tecnología en Sistematización de Datos. Está enfocada en el seguimiento de deudas de clientes, así como en la gestión de inventario y la venta de productos.",
+      "image": "/LianCorp.webp",
+      "link": "https://github.com/orgs/LIAN-CORP/repositories",
+      "tech": [
+        {
+          "name": "Nuxt",
+          "icon": "tabler:brand-nuxt",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Primevue",
+          "icon": "simple-icons:primevue",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "SCSS",
+          "icon": "vscode-icons:file-type-scss2",
+          "background": "#cd6799"
+        },
+        {
+          "name": "HTML",
+          "icon": "uim:html5",
+          "background": "#f16529"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-plain:css3",
+          "background": "#0277bd"
+        },
+        {
+          "name": "JWT",
+          "icon": "logos:jwt-icon",
+          "background": "#535353"
+        },
+        {
+          "name": "Docker",
+          "icon": "lineicons:docker",
+          "background": "#2396ed"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "lineicons:postgresql",
+          "background": "#336791"
+        },
+        {
+          "name": "Java",
+          "icon": "devicon-plain:java",
+          "background": "#535353"
+        },
+        {
+          "name": "Spring",
+          "icon": "simple-icons:spring",
+          "background": "#41873f"
+        }
+      ]
+    },
+    {
       "title": "Portafolio",
       "description": "Portafolio creado para presentar mis servicios como desarrollador. Incluye información básica sobre mí, mis proyectos y habilidades. Fue desarrollado con tecnologías modernas, cuenta con temas de color (modo claro y oscuro) y un diseño adaptable para la mayoría de dispositivos.",
       "image": "/Portfolio.webp",
@@ -80,7 +143,7 @@
           "name": "HTML",
           "icon": "uim:html5",
           "background": "#f16529"
-        }   
+        }
       ]
     },
     {
