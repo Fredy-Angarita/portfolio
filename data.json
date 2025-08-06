@@ -66,39 +66,6 @@
       ]
     },
     {
-      "title": "Portafolio",
-      "description": "Portafolio creado para presentar mis servicios como desarrollador. Incluye información básica sobre mí, mis proyectos y habilidades. Fue desarrollado con tecnologías modernas, cuenta con temas de color (modo claro y oscuro) y un diseño adaptable para la mayoría de dispositivos.",
-      "image": "/Portfolio.webp",
-      "link": "https://github.com/Fredy-Angarita/portfolio",
-      "tech": [
-        {
-          "name": "Nuxt",
-          "icon": "tabler:brand-nuxt",
-          "background": "#00dc82"
-        },
-        {
-          "name": "Typescript",
-          "icon": "bi:typescript",
-          "background": "#007acc"
-        },
-        {
-          "name": "SCSS",
-          "icon": "vscode-icons:file-type-scss2",
-          "background": "#cd6799"
-        },
-        {
-          "name": "HTML",
-          "icon": "uim:html5",
-          "background": "#f16529"
-        },
-        {
-          "name": "CSS",
-          "icon": "devicon-plain:css3",
-          "background": "#0277bd"
-        }
-      ]
-    },
-    {
       "title": "Series Library",
       "description": "Proyecto creado para personas que disfrutan de contenido como series y libros, y desean guardar resúmenes que les ayuden a recordar la trama sin tener que retomar la historia desde el principio.",
       "image": "/SeriesLibrary.webp",
@@ -143,6 +110,39 @@
           "name": "HTML",
           "icon": "uim:html5",
           "background": "#f16529"
+        }
+      ]
+    },
+    {
+      "title": "Portafolio",
+      "description": "Portafolio creado para presentar mis servicios como desarrollador. Incluye información básica sobre mí, mis proyectos y habilidades. Fue desarrollado con tecnologías modernas, cuenta con temas de color (modo claro y oscuro) y un diseño adaptable para la mayoría de dispositivos.",
+      "image": "/Portfolio.webp",
+      "link": "https://github.com/Fredy-Angarita/portfolio",
+      "tech": [
+        {
+          "name": "Nuxt",
+          "icon": "tabler:brand-nuxt",
+          "background": "#00dc82"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bi:typescript",
+          "background": "#007acc"
+        },
+        {
+          "name": "SCSS",
+          "icon": "vscode-icons:file-type-scss2",
+          "background": "#cd6799"
+        },
+        {
+          "name": "HTML",
+          "icon": "uim:html5",
+          "background": "#f16529"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-plain:css3",
+          "background": "#0277bd"
         }
       ]
     },
