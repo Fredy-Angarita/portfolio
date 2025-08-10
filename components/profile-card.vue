@@ -30,8 +30,8 @@ function onLightMode() {
     <div class="container-image">
       <img
         class="img"
-        src="https://avatarfiles.alphacoders.com/372/thumb-1920-372749.png"
-        alt="avatar"
+        src="/public/presentationImage.jpg"
+        alt="presentation-image"
       />
     </div>
     <article class="container-content">
@@ -55,7 +55,6 @@ function onLightMode() {
     .img {
       width: 200px;
       object-fit: contain;
-      aspect-ratio: 1/1;
       border-radius: 50%;
     }
   }
