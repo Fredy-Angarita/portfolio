@@ -106,6 +106,7 @@ function onRedirectProject() {
       &-description {
         padding: 0.5rem 0.7rem;
         height: 100%;
+        user-select: none;
       }
       &-links {
         display: flex;

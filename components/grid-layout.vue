@@ -31,6 +31,7 @@
   .div2 {
     grid-column: span 3 / span 3;
     grid-row: span 6 / span 6;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
   }
   .div3 {
     grid-row: span 2 / span 2;

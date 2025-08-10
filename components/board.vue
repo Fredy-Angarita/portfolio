@@ -39,6 +39,7 @@ const projects = useLandingData()["projects"];
   height: 100%;
   overflow-y: auto;
   scrollbar-width: none;
+
   &-presentation {
     padding: 2em;
     border-bottom: 2px solid var(--board-separator-color);
@@ -51,6 +52,7 @@ const projects = useLandingData()["projects"];
     margin-bottom: 0.5rem;
   }
   &-projects {
+    position: relative;
     padding: 1rem;
     gap: 1rem;
     place-items: center;

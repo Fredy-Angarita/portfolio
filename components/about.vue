@@ -15,10 +15,12 @@ const data = useLandingData();
 .about {
   max-width: 50%;
   &-title {
+    user-select: none;
     text-align: center;
     margin-bottom: 0.5rem;
   }
   &-description {
+    user-select: none;
     white-space: pre-line;
   }
 }
