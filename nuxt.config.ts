@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
   app: {
-    baseURL: "/portfolio/",
+    baseURL: "/",
     head: {
       title: "Fredy Angarita",
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
