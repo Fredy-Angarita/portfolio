@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: ["@nuxt/icon", "@nuxtjs/color-mode"],
+  ssr: false,
+
   css: ["/assets/styles/main.scss"],
   colorMode: {
     preference: "system",
@@ -11,6 +13,7 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
   app: {
+    baseURL: "/portfolio/",
     head: {
       title: "Fredy Angarita",
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
