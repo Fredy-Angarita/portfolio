@@ -9,14 +9,18 @@
 }
 html.light,
 html.light body {
-  background-image: url("../../public/sprinkleLight.svg");
+  background-image: url("../../public/bg-waves.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #000000;
 }
 
 html.dark,
 html.dark body {
-  background-image: url("../../public/SprinkleDark.svg");
+  background-image: url("../../public/bg-waves.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #ffffff;
 }

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-const phone = "+57 " + "323 " + "971 " + "5046";
-const email = "fsangaritav@gmail.com";
+const email = "fredysangaritav@gmail.com";
 const linkedin = "https://linkedin.com/in/fredysangaritav";
 const github = "https://github.com/Fredy-Angarita";
 const cv =
@@ -23,13 +22,8 @@ const cv =
         label="Github"
       />
       <ContactBadge
-        icon="streamline-ultimate-color:phone-circle"
-        label="Teléfono"
-        :copy="phone"
-      />
-      <ContactBadge
         icon="streamline-cyber-color:email-2"
-        label="Email"
+        label="email"
         :copy="email"
       />
     </div>
@@ -40,9 +34,6 @@ const cv =
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  overflow-y: auto;
-  scrollbar-width: none;
   border-radius: 0.4rem;
   gap: 1.2rem;
 
@@ -59,16 +50,7 @@ const cv =
     padding: 0.5rem;
   }
 }
-@media (max-width: 1350px) {
-  .contact {
-    box-shadow: inset 0px -32px 18px -29px rgba(66, 68, 90, 1);
-  }
-}
-@media (max-width: 1000px) {
-  .contact {
-    box-shadow: none;
-  }
-}
+
 @media (max-width: 900px) {
   .contact {
     padding: 0;

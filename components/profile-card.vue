@@ -11,7 +11,7 @@ function onLightMode() {
 
 <template>
   <div class="container">
-    <article class="container-actions">
+    <div class="container-actions">
       <ClientOnly>
         <Icon
           v-if="mode.value === 'light'"
@@ -26,29 +26,30 @@ function onLightMode() {
           @click="onLightMode"
         />
       </ClientOnly>
-    </article>
-    <div class="container-image">
-      <img
-        class="img"
-        src="https://avatarfiles.alphacoders.com/372/thumb-1920-372749.png"
-        alt="avatar"
-      />
     </div>
-    <article class="container-content">
-      <h2>Fredy Angarita</h2>
-      <h3>Desarrollador de Software</h3>
-    </article>
+    <div class="container-info">
+      <div class="container-image">
+        <img
+          class="img"
+          src="https://avatarfiles.alphacoders.com/372/thumb-1920-372749.png"
+          alt="avatar"
+        />
+      </div>
+      <article class="container-content">
+        <h2>Fredy Angarita</h2>
+        <h3>Desarrollador de Software</h3>
+      </article>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow-y: auto;
-  scrollbar-width: none;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
   padding: 0.5rem;
   &-image {
     padding: 0.5rem;
@@ -59,10 +60,16 @@ function onLightMode() {
       border-radius: 50%;
     }
   }
+  &-info {
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    justify-content: center;
+  }
   &-content {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     h2 {
       font-family: "MadimiOne";
       font-size: 3rem;
@@ -73,8 +80,6 @@ function onLightMode() {
   }
   &-actions {
     display: flex;
-    justify-content: right;
-    width: 100%;
     .icon {
       cursor: pointer;
       height: 3em;
@@ -84,8 +89,16 @@ function onLightMode() {
 }
 @media (max-width: 900px) {
   .container {
+    flex-direction: column;
     padding: 0;
+    &-info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
     &-content {
+      text-align: center;
       h2 {
         font-size: 2rem;
       }
