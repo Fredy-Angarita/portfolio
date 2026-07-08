@@ -6,9 +6,9 @@ const props = defineProps<{
   copy?: string;
 }>();
 
-function onAction() {
+async function onAction() {
   if (props.link) {
-    return navigateTo(props.link, {
+    return await navigateTo(props.link, {
       external: true,
       open: {
         target: "_blank",

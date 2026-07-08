@@ -32,6 +32,7 @@ const projects = useLandingData()["projects"];
     margin-bottom: 0.5rem;
   }
   &-projects {
+    position: relative;
     padding: 1rem;
     gap: 1rem;
     place-items: center;

@@ -26,6 +26,18 @@ function onLightMode() {
           @click="onLightMode"
         />
       </ClientOnly>
+    </article>
+    <div class="container-image">
+      <img
+        class="img"
+        src="/public/presentationImage.jpg"
+        alt="presentation-image"
+      />
+    </div>
+    <article class="container-content">
+      <h2>Fredy Angarita</h2>
+      <h3>Desarrollador de Software</h3>
+    </article>
     </div>
     <div class="container-info">
       <div class="container-image">
@@ -56,7 +68,6 @@ function onLightMode() {
     .img {
       width: 200px;
       object-fit: contain;
-      aspect-ratio: 1/1;
       border-radius: 50%;
     }
   }
