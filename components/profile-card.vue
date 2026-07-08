@@ -26,25 +26,14 @@ function onLightMode() {
           @click="onLightMode"
         />
       </ClientOnly>
-    </article>
-    <div class="container-image">
-      <img
-        class="img"
-        src="/public/presentationImage.jpg"
-        alt="presentation-image"
-      />
     </div>
-    <article class="container-content">
-      <h2>Fredy Angarita</h2>
-      <h3>Desarrollador de Software</h3>
-    </article>
-    </div>
+
     <div class="container-info">
       <div class="container-image">
         <img
           class="img"
-          src="https://avatarfiles.alphacoders.com/372/thumb-1920-372749.png"
-          alt="avatar"
+          src="/public/presentationImage.jpg"
+          alt="presentation-image"
         />
       </div>
       <article class="container-content">
