@@ -4,10 +4,6 @@ const projects = useLandingData()["projects"];
 
 <template>
   <section class="board">
-    <div class="board-presentation">
-      <About />
-      <Stack />
-    </div>
     <h2 class="board-breakpoint">Proyectos</h2>
     <div class="board-projects">
       <ProjectCard
@@ -19,27 +15,11 @@ const projects = useLandingData()["projects"];
         :link="project.link"
       />
     </div>
-    <div class="board-footer">
-      <p>
-        Free SVG Background by
-        <a target="_blank" href="https://bgjar.com">BGJar</a>
-      </p>
-      <a
-        target="_blank"
-        href="https://www.flaticon.es/iconos-gratis/programa"
-        title="programa iconos"
-        >icono usado, creados por Vectorslab - Flaticon</a
-      >
-    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .board {
-  height: 100%;
-  overflow-y: auto;
-  scrollbar-width: none;
-
   &-presentation {
     padding: 2em;
     border-bottom: 2px solid var(--board-separator-color);
@@ -59,14 +39,6 @@ const projects = useLandingData()["projects"];
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     border-bottom: 2px solid var(--board-separator-color);
-  }
-  &-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    a {
-      color: var(--board-separator-color);
-    }
   }
 }
 @media (max-width: 900px) {

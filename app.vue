@@ -1,5 +1,7 @@
+<script setup lang="ts"></script>
+
 <template>
   <div>
-    <GridLayout />
+    <LayoutsMain />
   </div>
 </template>

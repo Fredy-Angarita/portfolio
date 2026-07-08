@@ -13,7 +13,7 @@ const data = useLandingData();
 
 <style lang="scss" scoped>
 .about {
-  max-width: 50%;
+  padding: 1rem;
   &-title {
     user-select: none;
     text-align: center;
@@ -21,13 +21,17 @@ const data = useLandingData();
   }
   &-description {
     user-select: none;
+    text-align: center;
     white-space: pre-line;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 500px) {
   .about {
-    max-width: 100%;
     padding: 1rem;
+    &-description {
+      font-size: 1rem;
+    }
   }
 }
 </style>

@@ -83,10 +83,11 @@ function onRedirectProject() {
     &-back {
       width: 100%;
       height: 100%;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       background-color: var(--project-bg-color);
       border-radius: 5px;
       backface-visibility: hidden;
-      box-shadow: 0px 0px 17px -6px var(--project-box-shadow);
     }
     &-front {
       display: flex;

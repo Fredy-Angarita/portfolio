@@ -37,8 +37,9 @@ async function onAction() {
   gap: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
-  background-color: var(--badge-bg-color);
-  box-shadow: 0px 4px 16px -7px var(--badge-box-shadow);
+  background: var(--badge-bg-color);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   transition: 0.4s;
 
   &-icon {

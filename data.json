@@ -1,4 +1,16 @@
 {
+  "experience": [
+    {
+      "time": "6 meses",
+      "title": "Desarrollador Freenlance",
+      "description": "Desarrollo e implementación de una plataforma web y móvil para la administración de propiedades inmobiliarias. La solución fue desarrollada utilizando tecnologías como React Native para la aplicación móvil, Angular para la plataforma web y servicios de Google para la autenticación de usuarios, notificaciones push e integración de servicios en la nube."
+    },
+    {
+      "time": "6 meses",
+      "title": "Desarrollador Freenlance",
+      "description": "Diseño e implementación de un sistema de escritorio para restaurante ubicado en Bogotá, desarrollado en Java y JavaFX, que permite gestionar menús, inventario, comandas y facturación, optimizando los procesos operativos y administrativos del establecimiento."
+    }
+  ],
   "about-me": "¡Hola! Soy Fredy Angarita, programador con amplio conocimiento en distintas herramientas de desarrollo web. Me apasiona crear software funcional y escalable, aplicando patrones de diseño que me permiten mantener un código limpio. \n \n Durante mi formación en la Universidad Distrital Francisco Jose de Caldas, y también a través del aprendizaje autodidacta, he desarrollado aplicaciones móviles, aplicaciones web y programas de escritorio. Cada uno de estos proyectos ha contribuido significativamente a mi crecimiento profesional y personal. \n \n Además de la programación, disfruto de la lectura, una actividad que estimula mi imaginación y creatividad.",
 
   "projects": [
