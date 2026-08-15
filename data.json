@@ -1,12 +1,12 @@
 {
   "experience": [
     {
-      "time": "6 meses",
+      "time": "5 meses",
       "title": "Desarrollador Freenlance",
-      "description": "Desarrollo e implementación de una plataforma web y móvil para la administración de propiedades inmobiliarias. La solución fue desarrollada utilizando tecnologías como React Native para la aplicación móvil, Angular para la plataforma web y servicios de Google para la autenticación de usuarios, notificaciones push e integración de servicios en la nube."
+      "description": "Contribuí al desarrollo de aplicaciones web y móvil, implementando interfaces de usuario y funcionalidades clave, incluyendo portales diferenciados por rol de usuario e integraciones con Firebase, Google Maps y otros servicios de terceros. Apliqué arquitectura Feature-Based y principios SOLID para construir soluciones escalables y mantenibles, colaborando en equipo bajo metodologías ágiles (JIRA) y dando soporte activo en la resolución de bugs durante todo el ciclo de desarrollo."
     },
     {
-      "time": "6 meses",
+      "time": "3 meses",
       "title": "Desarrollador Freenlance",
       "description": "Diseño e implementación de un sistema de escritorio para restaurante ubicado en Bogotá, desarrollado en Java y JavaFX, que permite gestionar menús, inventario, comandas y facturación, optimizando los procesos operativos y administrativos del establecimiento."
     }
